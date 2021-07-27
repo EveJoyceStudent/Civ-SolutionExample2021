@@ -1,5 +1,6 @@
 ﻿using System;
 using ProjectPersonClasses;
+using ProjectCarClass;
 
 namespace ProjectOne
 {
@@ -12,6 +13,11 @@ namespace ProjectOne
             p1.Id = 12345;
 
             System.Console.WriteLine(p1.Name);
+
+            Car c1 = new Car("abc123", 12345);
+
+            System.Console.WriteLine(c1.rego);
+            System.Console.WriteLine(c1.odometer);
         }
     }
 }

@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProjectPersonClasses\ProjectPersonClasses.csproj" />
+    <ProjectReference Include="..\ProjectCarClass\ProjectCarClass.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
